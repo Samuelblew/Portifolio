@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!-- Updated: 2025-09-13 02:06 -->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Samuel - Engenheiro de Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="avatar">S</div>
+                <div class="brand-info">
+                    <span class="brand-name">Samuel Rodrigues da Silva</span>
+                    <span class="brand-title">Engenheiro de Software</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#certificados">Certificados</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="nav-language">
+                <select id="language-selector" class="language-dropdown">
+                    <option value="pt">🇧🇷 PT</option>
+                    <option value="en">🇺🇸 EN</option>
+                </select>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    ESTUDANTE DE ENGENHARIA DE SOFTWARE
+                </h1>
+                <p class="hero-description">
+                    Olá, me chamo Samuel<br>
+                    Cursando Engenharia de Software, com foco em criar experiências digitais inovadoras, eficientes e alinhadas às necessidades do usuário.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Ver Projetos ↓</button>
+                    <button class="btn-secondary">Sobre Mim</button>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/Samuelblew" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.300 24 12c0-6.627-5.373-12-12-12z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/samuel-rodrigues-340b73345" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/_samrs12_/" target="_blank" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.40s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/samuel-photo-new.png" alt="Samuel - Engenheiro de Software">
+                <div class="scroll-indicator">
+                    <div class="scroll-icon">{ }</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <p class="section-subtitle">SOBRE MIM</p>
+            <h2 class="section-title">Desenvolvedor em formação com foco em experiências digitais</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sou estudante de Engenharia de Software, com foco no desenvolvimento de soluções digitais eficientes e bem estruturadas. Minha trajetória na programação evoluiu para um aprendizado contínuo, voltado a boas práticas e arquitetura de software.</p>
+                    
+                    <p>Tenho experiência prática em front-end e back-end, trabalhando com tecnologias atuais do mercado e buscando sempre escrever código limpo, escalável e de fácil manutenção.</p>
+                    
+                    <div class="about-tags">
+                        <span class="tag">Proativo</span>
+                        <span class="tag">Detalhista</span>
+                        <span class="tag">Criativo</span>
+                        <span class="tag">Colaborativo</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Workspace com laptop e código">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="formacao" class="education">
+        <div class="container">
+            <p class="section-subtitle">FORMAÇÃO ACADÊMICA</p>
+            <h2 class="section-title">Minha jornada educacional</h2>
+            
+            <div class="education-card">
+                <h3>Engenharia de Software</h3>
+                <p class="education-institution">Universidade Católica de Brasília (UCB)</p>
+                <p class="education-period">2023 - 2025 (previsão)</p>
+                <p class="education-description">
+                    Engenharia de Software – Universidade Católica de Brasília (UCB)<br>
+                    Curso tecnólogo focado em desenvolvimento de software, análise de sistemas, banco de dados e metodologias ágeis, com 
+                    aprofundamento em programação web, mobile e gestão de projetos de TI. Formação voltada para a aplicação prática de 
+                    soluções tecnológicas inovadoras, alinhadas às demandas do mercado de software.
+                </p>
+            </div>
+            
+            <div class="courses-grid">
+                <div class="course-card">
+                    <h4>Udemy - Desenvolvimento Web Completo</h4>
+                    <p class="course-description">JavaScript, React, Node.js, MongoDB, Lua, C# - Do front-end ao back-end.</p>
+                </div>
+                <div class="course-card">
+                    <h4>Udemy - C# e .NET</h4>
+                    <p class="course-description">Modelagem, otimização e administração de bancos relacionais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificados" class="certificates">
+        <div class="container">
+            <p class="section-subtitle">CERTIFICAÇÕES</p>
+            <h2 class="section-title">Meus certificados</h2>
+            
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <img src="images/web-api-certificate.jpg" alt="Certificado Udemy Web API ASP .NET Core" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+                    </div>
+                    <h3>Desenvolvimento Web Full Stack</h3>
+                    <p class="certificate-platform">Udemy</p>
+                    <p class="certificate-year">2023</p>
+                    <a href="images/web-api-certificate-full.jpg" target="_blank" class="btn-certificate">Ver certificado</a>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <img src="images/udemy-certificate.jpg" alt="Certificado Udemy C# e .NET" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+                    </div>
+                    <h3>Banco de Dados e SQL</h3>
+                    <p class="certificate-platform">Udemy</p>
+                    <p class="certificate-year">2023</p>
+                    <a href="images/udemy-certificate.jpg" target="_blank" class="btn-certificate">Ver certificado</a>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <img src="images/declaracao-ucb-oficial.png" alt="Declaração de Escolaridade UCB" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+                    </div>
+                    <h3>Declaração de Escolaridade</h3>
+                    <p class="certificate-platform">Universidade Católica de Brasília</p>
+                    <p class="certificate-year">2025</p>
+                    <a href="images/declaracao-escolaridade-ucb.pdf" target="_blank" class="btn-certificate">Ver certificado</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <p class="section-subtitle">HABILIDADES</p>
+            <h2 class="section-title">Tecnologias & Ferramentas</h2>
+            
+            <div class="skills-section">
+                <h3>Frontend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" class="skill-link">
+                            <div class="skill-icon html">
+                                <img src="images/html5-icon.png" alt="HTML5" />
+                            </div>
+                            <span>HTML5</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" class="skill-link">
+                            <div class="skill-icon css">
+                                <img src="images/css3-icon.png" alt="CSS3" />
+                            </div>
+                            <span>CSS3</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" class="skill-link">
+                            <div class="skill-icon js">
+                                <img src="images/js-icon.png" alt="JavaScript" />
+                            </div>
+                            <span>JavaScript</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-section">
+                <h3>Backend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <a href="https://nodejs.org/" target="_blank" class="skill-link">
+                            <div class="skill-icon node">
+                                <img src="images/node-icon.png" alt="Node.js" />
+                            </div>
+                            <span>Node.js</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://www.python.org/" target="_blank" class="skill-link">
+                            <div class="skill-icon python">
+                                <img src="images/python-icon.png" alt="Python" />
+                            </div>
+                            <span>Python</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" class="skill-link">
+                            <div class="skill-icon csharp">
+                                <img src="images/csharp-icon.png" alt="C#" />
+                            </div>
+                            <span>C# e .NET</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://www.lua.org/" target="_blank" class="skill-link">
+                            <div class="skill-icon lua">
+                                <img src="images/lua-icon.png" alt="Lua" />
+                            </div>
+                            <span>Lua</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://www.mongodb.com/" target="_blank" class="skill-link">
+                            <div class="skill-icon mongo">
+                                <img src="images/mongo-icon.png" alt="MongoDB" />
+                            </div>
+                            <span>MongoDB</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://www.postgresql.org/" target="_blank" class="skill-link">
+                            <div class="skill-icon postgres">
+                                <img src="images/postgres-icon.png" alt="PostgreSQL" />
+                            </div>
+                            <span>PostgreSQL</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-section">
+                <h3>Ferramentas</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <a href="https://git-scm.com/" target="_blank" class="skill-link">
+                            <div class="skill-icon git">
+                                <img src="images/git-icon.png" alt="Git" />
+                            </div>
+                            <span>Git</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://github.com/" target="_blank" class="skill-link">
+                            <div class="skill-icon github">
+                                <img src="images/github-icon.png" alt="GitHub" />
+                            </div>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                    <div class="skill-item">
+                        <a href="https://code.visualstudio.com/" target="_blank" class="skill-link">
+                            <div class="skill-icon vscode">
+                                <img src="images/vscode-icon.png" alt="VS Code" />
+                            </div>
+                            <span>VS Code</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <p class="section-subtitle">PROJETOS</p>
+            <h2 class="section-title">Alguns dos meus trabalhos</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="images/project-zomboid-necroa.png" alt="Project Zomboid - Necroa">
+                    <div class="project-content">
+                        <h3>Project Zomboid - Necroa</h3>
+                        <p>Mod completo para Project Zomboid que porta todo um modo de jogo do plague inc para o game.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">Lua</span>
+                        </div>
+                        <a href="https://github.com/Samuelblew/ProjectZomboid-Necroa/tree/main" target="_blank" class="btn-project">Código</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <img src="images/mongodb-logo.png" alt="Movies - MongoDB Project" style="width: 100%; height: 200px; object-fit: contain; object-position: center; background: #f8f9fa;">
+                    <div class="project-content">
+                        <h3>Movies - MongoDB Project</h3>
+                        <p>Aplicação completa para catálogo de filmes com banco de dados MongoDB e interface responsiva.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">MongoDB</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/Samuelblew/-Movie-mongoDB" target="_blank" class="btn-project">Código</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <p class="section-subtitle">PRECISA DE UM DESENVOLVEDOR?</p>
+            <h2 class="section-title">Vamos trabalhar juntos →</h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informações de contato</h3>
+                    <p>Sinta-se à vontade para entrar em contato comigo a qualquer momento. Prefiro conversar por email, especialmente porque podemos estar em fusos horários diferentes.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉️</span>
+                            <span>samuelrodrigues20052023@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+55 61 99427-9259</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="availability">
+                    <h3>Disponibilidade atual</h3>
+                    <p>Atualmente trabalho em vários projetos pessoais, mas estarei feliz em discutir novas oportunidades.</p>
+                    <div class="availability-status">
+                        <span class="status-indicator"></span>
+                        <span>Disponível para novos projetos</span>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <h3>Me siga em</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/Samuelblew" target="_blank" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.30.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.300 24 12c0-6.627-5.373-12-12-12z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/samuel-rodrigues-340b73345" target="_blank" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/_samrs12_/" target="_blank" class="social-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
